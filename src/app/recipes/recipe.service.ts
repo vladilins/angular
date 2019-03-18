@@ -9,13 +9,13 @@ export class RecipeService {
   private recipes: Recipe[] = [
     new Recipe(
       "Salad",
-      "This is a test",
+      "Tasty Salad",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-E28BB6cRRotXBHjM87qcwyaMg6UGdc_N0J_TBk62jnVmAT07tA",
       [new Ingredient("Salad", 100), new Ingredient("Tomato", 1)]
     ),
     new Recipe(
       "Pizza",
-      "This is a test",
+      "Super Chease pizza",
       "https://www.wholesomeyum.com/wp-content/uploads/2018/01/wholesomeyum-stuffed-spaghetti-squash-lasagna-boats-recipe-with-meat-2.jpg",
       [new Ingredient("Bread", 1), new Ingredient("Chease", 100)]
     )
